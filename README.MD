@@ -50,6 +50,3 @@ This service is responsible for the frontend and operation of the websocket room
     `docker build -t codeinterview-frontend .`
 2. Run docker image with enviroment variables from `.env`
     `docker run --env-file ./server/.env codeinterview-frontend`
-
-## Community
-* Contributing to Codeinterview - Start here if you want to contribute

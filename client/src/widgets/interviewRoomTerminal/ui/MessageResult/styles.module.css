@@ -1,0 +1,17 @@
+
+.message {
+    margin-bottom: 20px;
+}
+
+.info {
+    color: #939493;
+}
+
+.output {
+    margin-top: 10px;
+}
+
+.error {
+    margin-top: 10px;
+    color: #d61918;
+}

@@ -1,0 +1,1 @@
+export { TerminalMessageModel } from './model/terminalMessage';

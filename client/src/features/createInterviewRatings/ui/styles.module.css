@@ -1,0 +1,8 @@
+.rating,
+.rating > li > div {
+    cursor: pointer;
+}
+
+.rating > li:hover {
+    transform: scale(1.1);
+}

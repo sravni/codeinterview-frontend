@@ -1,0 +1,17 @@
+.logo {
+    width: 132px;
+    height: 24px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: normal;
+    gap: 8px
+}
+
+.text {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.text > svg {
+    display: block;
+}

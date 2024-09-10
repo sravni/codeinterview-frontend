@@ -1,0 +1,20 @@
+.layout {
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.content {
+    margin-top: 62px;
+    padding: 20px;
+}

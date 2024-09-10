@@ -1,0 +1,13 @@
+.users {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.badge + .badge {
+    margin-left: 15px;
+}

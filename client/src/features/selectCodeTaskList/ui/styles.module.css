@@ -1,0 +1,16 @@
+.card {
+    height: 230px;
+    overflow: 'hidden';
+}
+
+.code {
+    font-family: monospace;
+    white-space: pre;
+    overflow: auto;
+    height: 165px;
+    font-size: 12px;
+}
+
+.pagination {
+    margin-top: 16px;
+}

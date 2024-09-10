@@ -1,0 +1,11 @@
+.avatar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.name {
+    overflow: hidden;
+    max-width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

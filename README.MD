@@ -11,10 +11,11 @@ Out of the box:
 
 ## Available Languages for livecoding
 
-* JavaScript
-* Typescript
-* Go
-* C#
+- JavaScript
+- Typescript
+- Go
+- C#
+- Python
 
 ## Structure
 `./client` - Browser application by [Create React App](https://create-react-app.dev/)

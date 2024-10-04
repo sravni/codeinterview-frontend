@@ -13,6 +13,7 @@
     "@babel/runtime": "^7.25.0",
     "@codemirror/lang-go": "^6.0.1",
     "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/lang-python": "^6.1.6",
     "@hookform/resolvers": "^3.6.0",
     "@replit/codemirror-lang-csharp": "^6.2.0",
     "@tanstack/react-query": "^5.45.1",

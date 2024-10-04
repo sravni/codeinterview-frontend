@@ -3,4 +3,5 @@ export enum LANGUAGES {
   TYPESCRIPT = 'typescript',
   GO = 'go',
   CSHARP = 'csharp',
+  PYTHON = 'python'
 }

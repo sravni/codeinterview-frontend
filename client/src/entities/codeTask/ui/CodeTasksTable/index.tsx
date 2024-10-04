@@ -16,6 +16,7 @@ const LANGUAGES_VIEW = {
   [LANGUAGES.TYPESCRIPT]: 'TypeScript',
   [LANGUAGES.GO]: 'Go',
   [LANGUAGES.CSHARP]: 'C#',
+  [LANGUAGES.PYTHON]: 'Python',
 }
 
 export const CodeTasksTable = (props: CodeTasksTableProps) => {

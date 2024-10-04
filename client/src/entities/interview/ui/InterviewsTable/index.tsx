@@ -22,6 +22,7 @@ const LANGUAGES_VIEW = {
   [LANGUAGES.TYPESCRIPT]: 'TypeScript',
   [LANGUAGES.GO]: 'Go',
   [LANGUAGES.CSHARP]: 'C#',
+  [LANGUAGES.PYTHON]: 'Python',
 }
 // TODO: Заменить на i18n
 const STATUSES_VIEW = {

@@ -157,6 +157,7 @@ export enum CreateInterviewDtoLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 export enum CreateInterviewDtoStatusEnum {
@@ -170,6 +171,7 @@ export enum InterviewDtoLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 /** Статус интервью */
@@ -183,6 +185,7 @@ export enum UpdateInterviewDtoLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 export enum UpdateInterviewDtoStatusEnum {
@@ -216,6 +219,7 @@ export enum CreateCodeTaskDtoLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 /** Язык программирования */
@@ -224,6 +228,7 @@ export enum CodeTaskDtoLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 export enum UpdateCodeTaskDtoLanguageEnum {
@@ -231,6 +236,7 @@ export enum UpdateCodeTaskDtoLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 export enum GetInterviewsParamsLanguageEnum {
@@ -238,6 +244,7 @@ export enum GetInterviewsParamsLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 export enum GetInterviewsParamsStatusEnum {
@@ -260,6 +267,7 @@ export enum GetCodeTasksParamsLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse, HeadersDefaults, ResponseType } from 'axios';

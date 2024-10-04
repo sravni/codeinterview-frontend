@@ -29,6 +29,10 @@ const convertLanguageToExtensions = async (language: LANGUAGES): Promise<Extensi
             const { csharp } = await import('@replit/codemirror-lang-csharp');
             return [csharp()];
         }
+        case LANGUAGES.PYTHON: {
+            const { python } = await import('@codemirror/lang-python');
+            return [python()];
+        }
         default:
             const unknownLanguage: never = language;
             throw new Error(`Неизвестное язык программирования - ${unknownLanguage}`);
@@ -37,7 +41,7 @@ const convertLanguageToExtensions = async (language: LANGUAGES): Promise<Extensi
 
 export const InterviewRoomEditor = (props: InterviewRoomEditorProps) => { 
     const { language, ...rest } = props;
-    const [extensions, setExtension] = useState<Extension[]>([]);
+    const [extensions, setExtensions] = useState<Extension[]>([]);
 
     const value = useEditor(); 
     const actions = useActions();
@@ -46,10 +50,13 @@ export const InterviewRoomEditor = (props: InterviewRoomEditorProps) => {
     useEffect(() => { 
         (async () => { 
             const languagesExtensions = await convertLanguageToExtensions(language);
-            setExtension((state) => state.concat(languagesExtensions));
+            setExtensions((state) => state.concat(languagesExtensions));
         })();
     }, [language]);
 
+    if (extensions.length === 0)
+        return null;
+    
     return (
         <CodeMirror
             className={styles.editor}

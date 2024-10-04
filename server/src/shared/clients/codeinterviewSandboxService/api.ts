@@ -25,6 +25,7 @@ export enum ExecuteCodeDtoLanguageEnum {
   Typescript = 'typescript',
   Go = 'go',
   Csharp = 'csharp',
+  Python = 'python',
 }
 
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse, HeadersDefaults, ResponseType } from 'axios';

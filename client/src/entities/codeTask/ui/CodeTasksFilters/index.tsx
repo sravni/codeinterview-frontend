@@ -10,10 +10,11 @@ import { FIELD_NAME } from './consts';
 
 // TODO: Заменить на i18n
 const LANGUAGES_VIEW = { 
-    [LANGUAGES.JAVASCRIPT]: 'JavaScript',
-    [LANGUAGES.TYPESCRIPT]: 'TypeScript',
-    [LANGUAGES.GO]: 'Go',
-    [LANGUAGES.CSHARP]: 'C#',
+  [LANGUAGES.JAVASCRIPT]: 'JavaScript',
+  [LANGUAGES.TYPESCRIPT]: 'TypeScript',
+  [LANGUAGES.GO]: 'Go',
+  [LANGUAGES.CSHARP]: 'C#',
+  [LANGUAGES.PYTHON]: 'Python',
 }
 
 // TODO: Заменить на i18n

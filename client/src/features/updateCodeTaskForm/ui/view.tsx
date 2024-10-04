@@ -18,6 +18,7 @@ const LANGUAGES_VIEW = {
     [LANGUAGES.TYPESCRIPT]: 'TypeScript',
     [LANGUAGES.GO]: 'Go',
     [LANGUAGES.CSHARP]: 'C#',
+    [LANGUAGES.PYTHON]: 'Python',
 }
 
 type Values = Yup.InferType<typeof validationSchema>
